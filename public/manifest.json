@@ -1,0 +1,42 @@
+{
+    "name": "MyTV+",
+    "short_name": "myTV+",
+    "description": "#1 Internet TV Experience",
+    "start_url": "/",
+    "display_override": ["fullscreen"],
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#333",
+    "icons": [{
+            "src": "./images/media.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "./images/media.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "./images/media.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [{
+            "src": "./images/media.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "form_factor": "wide",
+            "label": "MyTV+"
+        },
+        {
+            "src": "./images/media.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "form_factor": "narrow",
+            "label": "MyTV+"
+        }
+    ]
+}
