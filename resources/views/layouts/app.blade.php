@@ -8,6 +8,7 @@
     @vite('resources/css/app.css')
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
     <link href="styles.css" rel="stylesheet" />
+    <link rel="manifest" href="./manifest.json">
 
 </head>
 
