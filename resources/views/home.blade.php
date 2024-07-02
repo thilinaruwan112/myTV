@@ -31,7 +31,7 @@
             </div>
         </div>
 
-        <div class="sm:order-1 lg:order-last rounded-lg lg:col-span-2">
+        <div class="order-1 lg:order-last rounded-lg lg:col-span-2">
             {{-- <x-JwPlayer /> --}}
 
             <x-MainBanner />
