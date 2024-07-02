@@ -8,31 +8,31 @@
     "background_color": "#ffffff",
     "theme_color": "#333",
     "icons": [{
-            "src": "./images/media.png",
+            "src": "./images/app-icon/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "./images/media.png",
+            "src": "./assets/images/app-icon/android-chrome-512x512.png",
             "type": "image/png",
             "sizes": "512x512"
         },
         {
-            "src": "./images/media.png",
+            "src": "./assets/images/app-icon/android-chrome-512x512.png",
             "type": "image/png",
             "sizes": "512x512",
             "purpose": "maskable"
         }
     ],
     "screenshots": [{
-            "src": "./images/media.png",
+            "src": "./assets/images/app-icon/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png",
             "form_factor": "wide",
             "label": "MyTV+"
         },
         {
-            "src": "./images/media.png",
+            "src": "./assets/images/app-icon/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png",
             "form_factor": "narrow",
