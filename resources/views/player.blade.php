@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ $defaultName }}</title>
+    <title>{{ $defaultName }} | My TV | Sri Lankan Premire Internet TV Experience</title>
 
     <script src="../../jwplayer/jwplayer.js"></script>
     <script src="../../jwplayer/jwpsrv.js"></script>

@@ -1,0 +1,33 @@
+.h-screen-minus-10 {
+    max-height: calc(100vh - 160px) !important;
+}
+
+
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 0px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #17171a;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
