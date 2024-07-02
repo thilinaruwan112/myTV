@@ -5,7 +5,7 @@
 @section('content')
     <div class="grid grid-cols-1 gap-0 lg:grid-cols-3">
 
-        <div class="bg-black">
+        <div class="bg-black order-last lg:order-1">
             <div class="p-5">
                 <h1 class="text-white text-4xl font-bold">Channel List</h1>
                 <x-ChannelSearch />
@@ -31,12 +31,28 @@
             </div>
         </div>
 
-        <div class="rounded-lg lg:col-span-2">
+        <div class="sm:order-1 lg:order-last rounded-lg lg:col-span-2">
             {{-- <x-JwPlayer /> --}}
 
             <x-MainBanner />
         </div>
     </div>
+
+    <script>
+        document.getElementById('default-search').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const channels = document.querySelectorAll('[data-name]');
+
+            channels.forEach(channel => {
+                const name = channel.getAttribute('data-name').toLowerCase();
+                if (name.includes(searchTerm)) {
+                    channel.style.display = '';
+                } else {
+                    channel.style.display = 'none';
+                }
+            });
+        });
+    </script>
     {{--
     <x-ChannelSlider :channels="$cards" /> --}}
 

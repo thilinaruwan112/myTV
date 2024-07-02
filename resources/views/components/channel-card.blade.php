@@ -1,7 +1,7 @@
-<a href="/{{ $channelKey }}/{{ $defaultName }}/"
+<a data-name="{{ $defaultName }}" href="/{{ $channelKey }}/{{ $defaultName }}/"
     class="group relative  from-black via-gray-900 to-black flex justify-center items-center hover:bg-white  transition-all border rounded-3xl shadow-lg border-1">
-    <img alt="" src={{ $posterImg }}
-        class="absolute w-95 object-cover opacity-75 transition-opacity group-hover:opacity-100" />
+    <img alt="" src={{ $posterImg }} style="width:80%"
+        class="absolute object-cover opacity-75 transition-opacity group-hover:opacity-100" />
 
     <div class="relative p-4 sm:p-6 lg:p-8">
         <div class="mt-32 sm:mt-48 lg:mt-40">
