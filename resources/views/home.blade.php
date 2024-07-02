@@ -5,7 +5,15 @@
 @section('content')
     <div class="grid grid-cols-1 gap-0 lg:grid-cols-3">
 
-        <div class="bg-black order-last lg:order-1">
+
+        <div class="rounded-lg lg:col-span-2">
+            {{-- <x-JwPlayer /> --}}
+
+            <x-MainBanner />
+        </div>
+
+
+        <div class="bg-black">
             <div class="p-5">
                 <h1 class="text-white text-4xl font-bold">Channel List</h1>
                 <x-ChannelSearch />
@@ -29,12 +37,6 @@
                     @endforeach
                 </div>
             </div>
-        </div>
-
-        <div class="order-1 lg:order-last rounded-lg lg:col-span-2">
-            {{-- <x-JwPlayer /> --}}
-
-            <x-MainBanner />
         </div>
     </div>
 
