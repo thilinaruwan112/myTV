@@ -1,4 +1,4 @@
-<section class="relative bg-[url('./images/banner.jpg')] bg-cover bg-center bg-no-repeat">
+<section class="relative bg-cover bg-center bg-no-repeat" style="background-image: url('./images/banner.jpg')">
     <div class="absolute inset-0 bg-gray-900/75 sm:bg-transparent sm:from-black sm:to-gray-900/25 sm:bg-gradient-to-r">
     </div>
 
